@@ -1,6 +1,11 @@
 #!/bin/bash
 
-for ((i=0; i<10; i++))
+#for ((i=0; i<10; i++))
+#do
+#  echo "$i"
+#done
+
+for FILE in if_*.sh
 do
-  echo "$i"
+echo $FILE
 done
